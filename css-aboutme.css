@@ -142,6 +142,11 @@ h3 {
 	padding-bottom: 30px;
 	text-align: left;
 }
+.list1 li a {
+	padding-bottom: 30px;
+	text-align: left;
+	color: rgb(214, 212, 212);
+}
 .child1 {
     align-self: flex-start;
 	flex: 1;
@@ -156,14 +161,12 @@ h3 {
 	font-style: normal;
 	font-family: "Lobster", Arial, Helvetica, "sans-serif";
 }
-.p1 {
-	padding-left: 10px;
+p {
 	padding-right: 275px;
+	padding-bottom: 5px;
+	padding-left: 15px;
 }
-.p2 {
-	padding-left: 10px;
-	padding-right: 275px;	
-}
+
 .contactcontainer {
 	font-family: "Lobster", Arial, Helvetica, "sans-serif";
 	background-image: url(/images/profilepic3.jpg);
@@ -209,3 +212,9 @@ textarea.contact-form-text {
 	height: 120px;
 }
 
+.p-footer {
+	padding: 0.3em;
+	background-color: rgb(34, 33, 33);
+	color: rgb(128, 126, 126);
+	text-align: right;
+}
