@@ -27,20 +27,17 @@
                 </div>    
             </nav>
         </header>
-        <main class="main-bg">
-            <form id="contact" action="/my-handling-form-page" action="" method="POST">
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name">
-                </div>
-                <div>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </div>
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
+        <main>
+            <div class="contactcontainer">
+                <h2 class ="contacth2"> Contact me</h2>
+                <div class="borderC"></div>
+                <form class="contactform" action="contact.html" method="post">
+                    <input type="text" class="contact-form-text" Placeholder="Write your name here.">
+                    <input type="email" class="contact-form-text" Placeholder="Write your e-mail here.">
+                    <textarea class ="contact-form-text" Placeholder= "Write your message here."></textarea>
+                    <input type="submit" class="contact-form-text" value="Send">
+                </form>
+            </div>
         </main>
         <footer>
             <p>© 2019 written by pongcoder9000</p>
