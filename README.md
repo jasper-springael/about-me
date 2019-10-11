@@ -21,7 +21,7 @@ On the last page you'll find a working contact form (errmagerd).
 4. Simply copying stuff doesn't teach you anything and the moment you wanna put your own twist to it without understanding it, everything goes to shit. Don't do it except when it's just formulaic stuff like a reset.
 5. When styling, don't try to style everything like it's seperate. Try to styling method and apply it consistently throughout your project.
 
-***6. Use waayyyyyyyy more comments in your code. It gives you structure, it gives you sanity.***
+***6. Use waayyyyyyyy more comments in your code. It gives you structure, it gives you sanity.***   
 ***7. Divide up your project and do 1 THING AT A TIME. Jumping from thing to thing gets messy REAL fast, just take your time to perfect one aspect, add/commit/push and on to the next thing. Don't make your form, change a font on another page and make some new classes for a paragraph all at the same time. Focus.***
 
 ## Message to myself
