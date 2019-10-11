@@ -7,9 +7,9 @@ On another page you'll find my coding experience in a nice and centralized forma
 On the last page you'll find a working contact form (errmagerd).
 
 ## What did I use?
--Lobster font of course, is there another????
--Years and years of no css experience.
--Many, many salty tears.
+- Lobster font of course, is there another????
+- Years and years of no css experience.
+- Many, many salty tears.
 
 **For the realzies now.**
 
