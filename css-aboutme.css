@@ -95,20 +95,46 @@ body {
 
 h1 {
 	font-size: 75px;
-	font-family: "Lobster";
+	font-family: "Lobster", Arial, Helvetica, "sans-serif";
 	text-shadow: 2px 1px 2px #3B3C3B;
 	text-align: center;
-	padding: 0.2em; 
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	text-align: center;
 }
 h2 {
 	font-size: 50px;
-	font-family: "Lobster";
-	padding: 1em;
+	font-family: "Lobster", Arial, Helvetica, "sans-serif";
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-top: 15px;
+	text-align: center;
 }
 h3 {
 	font-size: 35px;
-	font-family: "Lobster";
-	padding: 0.5em;
+	font-family: "Lobster", Arial, Helvetica, "sans-serif";
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	text-align: center;
+}
+#h3-languages {
+	font-size: 35px;
+	font-family: "Lobster", Arial, Helvetica, "sans-serif";
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	text-align: center;
+}
+h4 {
+	font-size: 24px;
+	font-family: "Lobster", Arial, Helvetica, "sans-serif";
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	text-align: center;
 }
 
 .medium-image {
@@ -162,9 +188,10 @@ h3 {
 	font-family: "Lobster", Arial, Helvetica, "sans-serif";
 }
 p {
-	padding-right: 275px;
+	padding-right: 100px;
 	padding-bottom: 5px;
-	padding-left: 15px;
+	padding-left: 100px;
+	text-align: center;
 }
 
 .contactcontainer {
@@ -183,7 +210,7 @@ p {
 }
 .contacth2 {
 	font-size: 50px;
-	font-family: "Lobster";
+	font-family: "Lobster", Arial, Helvetica, "sans-serif";
 	padding-top: 50px;
 	text-align: center;
 	Color: rgb(248, 247, 247);
@@ -201,15 +228,31 @@ p {
 	border: 0;
 	background-color: rgb(20, 20, 20);
 	padding: 20px 40px;
-	color: rgb(248, 245, 240)
+	color: rgb(248, 245, 240);
+
+}
+.contact-form-text2 {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px;
+	border: 0;
+	background-color: rgb(20, 20, 20);
+	padding: 20px 40px;
+	color: rgb(248, 245, 240);
+	cursor: pointer;
 
 }
 .contact-form-text:hover {
-	box-shadow: 0 0 5px 8px rgb(103, 104, 103);
+	box-shadow: 0 0Px 5px 8px rgb(53, 52, 52);
+}
+.contact-form-text2:hover {
+	box-shadow: 0 0Px 5px 8px rgb(53, 52, 52);
 }
 textarea.contact-form-text {
 	resize: none;
 	height: 120px;
+	
 }
 
 .p-footer {
@@ -218,3 +261,28 @@ textarea.contact-form-text {
 	color: rgb(128, 126, 126);
 	text-align: right;
 }
+.skill-level {
+	padding-right: 100px;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: "Lobster", Arial, Helvetica, "sans-serif";
+}
+
+/* Responsiveness*/
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; height: auto; }
+
