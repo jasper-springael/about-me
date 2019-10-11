@@ -47,9 +47,9 @@ table {
 	border-spacing: 0;
 }
 /* start of css*/
-* {
+
 	/*box-sizing: border-box;*/
-}
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
