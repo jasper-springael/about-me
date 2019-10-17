@@ -38,6 +38,8 @@ body #title-nav .navbar ul {
   justify-content: space-between;
   display: flex;
   align-items: center;
+  width: 200px;
+  /* width nodig om spatie te maken tussen de 3 li items*/
 }
 
 body #title-nav .navbar ul li {
